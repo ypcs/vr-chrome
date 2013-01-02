@@ -6,7 +6,8 @@
   "browser_action": {
     "default_icon": "icon.png"
   },
-  "permissions": [
-    "http://www.vr.fi/"
-  ]
+  "content_scripts": [{
+    "js": ["jquery.min.js", "content.js"],
+    "matches": ["http://*.vr.fi/*", "https://*.vr.fi/*"]
+  }]
 }
