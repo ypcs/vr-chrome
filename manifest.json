@@ -1,6 +1,6 @@
 {
   "name": "VR?!",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "description": "Yksinkertaisia korjauksia VR.fi -sivustoon, jotta matkanteko vois olla edes vähän vaivattomampaa - kun VR itse ei osaa.",
   "icons": {
